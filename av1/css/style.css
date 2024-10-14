@@ -1,0 +1,27 @@
+html, body {
+    height: 100%; /* Define a altura de html e body para 100% */
+    margin: 0; /* Remove margens padrão */
+    background-image: url('../img/background.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+}
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente para melhor legibilidade */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 50px; /* Margem superior */
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Espaçamento entre os campos */
+}
+
+#employeeTable {
+    color: rgb(255, 255, 255);
+}
