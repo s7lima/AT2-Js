@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             employees.push(newEmployee);
             sessionStorage.setItem('employees', JSON.stringify(employees));
             addRowToTable(newEmployee);
+            console.log('Funcionário cadastrado:', newEmployee); // Exibe no console
             employeeForm.reset();
             toggleRestartButton(employees.length);
             toggleEmployeeTable(employees.length); // Atualiza a visibilidade da tabela
