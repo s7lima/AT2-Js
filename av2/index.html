@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AV2</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Av2</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header id="fundo">
+  <main>
+    <div id="main-container">
+      <div id="banner-container">
+        <img src="img/imagem_at2.jfif" />
+      </div>
+      <div id="form-container">
+        <div id="form-box">
+          <h2>Register</h2>
+          <form id="login-form">
+            <input type="text" name="username" placeholder="Username" />
+            <input type="text" name="email" placeholder="Email address" />
+            <div class="separator">
+              <div class="line"></div>
+            </div>
+            <input type="password" name="password" placeholder="Password">
+            <input type="password" name="password" placeholder="Confirm password">
+            <input id="submit" type="submit" value="REGISTER" />
+            <a href="#" class="href">Sing In</a>
+          </form>
+          <div class="separator">
+            <div class="line"></div>
+          </div>
+          <div id="other-links">
+            <div id="google-login">
+              <i class="fa fa-google" aria-hidden="true"></i>
+              <a href="#">
+                <img src="img/google-branco.png" alt="Google Login"/>
+                <span>sing up with google</span>
+              </a>
+            </div>
+            <div id="facebook-login">
+              <a href="#">
+                <img src="img/logo_facebook.svg" alt="Facebook Login" />
+                <span>sing up with Facebook</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-        <section id="corpo">
-            <form id="login-form">
-                <input
-                  type="text"name="username"
-                  placeholder="Username"/>
-                <input
-                  type="text"name="email"
-                  placeholder="Email addres"/>
-                <input type="password" name="password" placeholder="Password" />
-                <input type="password" name="confirm-password" placeholder="Confirm password" />
-
-                <input type="submit" value="Register" />
-              </form>
-        </section>
-
-    </header>
-    
 </body>
+
 </html>
